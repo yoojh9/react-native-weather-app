@@ -48,7 +48,7 @@ export default class App extends Component {
         {isLoaded ? 
         (
           <Weather 
-              temp={Math.floor(this.state.temperature)} 
+              temp={Math.ceil(this.state.temperature)} 
               weatherName={this.state.name}
               city={this.state.city}/> 
         ) 
